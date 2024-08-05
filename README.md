@@ -16,16 +16,6 @@ graph TD;
     Client-->User;
 ```
 
-```mermaid
-sequenceDiagram
-    User-->>Growtopia Client: Can I connect?
-    Growtopia Client->>www.growtopia1.com: POST request
-    Note left of www.growtopia1.com: www.growtopia1.com is <br/>mapped to our server IP
-    www.growtopia1.com-->>User: server_data.php
-    User->>Growtopia Client: server_data.php
-    Growtopia Client-->>User: Connected!
-```
-
 # What server handles
 <details><summary>Networking</summary>
 Everything below but made to update to all connected peers.
